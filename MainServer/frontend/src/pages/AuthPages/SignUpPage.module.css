@@ -1,0 +1,61 @@
+
+
+.container {
+    height: calc(100vh - 0px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .logo {
+    background-image: url('../../pictures/Logo.png');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 50px;
+    margin: 0% 25%;
+}
+
+.container .inputs {
+    margin: 60px 0px;
+}
+
+.container form {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
+              0 1px 3px rgba(0, 0, 0, 0.06);
+    padding: 40px;
+}
+
+.container h1 {
+    text-align: center;
+    margin: 60px 0px;
+}
+
+.container button {
+    width: 70%;
+    margin: 0% 15%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffffff;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.container .errorText {
+    color: red;
+    text-align: center;
+}
+
+.container .infoBlock {
+    display: flex;
+    padding: 10px;
+}
+
+.container .infoBlock a {
+    margin: 0px 20px;
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+}

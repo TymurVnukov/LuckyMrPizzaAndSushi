@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.mainbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: calc(100vh - 250px);
+}
+
+.mainbody h1 {
+    font-size: 50px;
+}
+
+.mainbody h2 {
+    font-family: "Yuji Mai", serif;
+}
+
+.mainbody .links {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.mainbody a {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 20%;
+    text-align: center;
+}
